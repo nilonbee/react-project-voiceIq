@@ -242,7 +242,12 @@
     background: var(--primaryColor);
   }
   /* end of Title */
-  
+  /* start of fieldset */
+@media screen and (min-width: 576px) {
+    .fieldset {
+      padding: 2rem 3rem;
+    }
+    /*end of fieldset /*
   /* services */
   .services {
     padding: 5rem 0;

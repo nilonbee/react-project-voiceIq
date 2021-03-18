@@ -243,7 +243,7 @@
   }
   /* end of Title */
   /* start of fieldset */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 976px) {
     .fieldset {
       padding: 2rem 3rem;
     }

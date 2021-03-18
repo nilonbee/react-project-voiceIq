@@ -101,7 +101,7 @@ const Login = () => {
 {people.map((person)=>{
                 const{firstName,lastName,email,id,} = person
                 if(person.firstName&&person.lastName&&person.email)
-                {return <Submit><div key={id}>
+                {return <Submit className="fieldset"><div key={id}>
             <div style={{ backgroundImage:"linear-gradient(to right,#f67a36,#ed008c)",padding:25}}>
                 <h1> CONGRATULATIONS!!</h1>   
                   <h3><u>You are already Signed-Up </u></h3>

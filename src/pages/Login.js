@@ -63,7 +63,7 @@ const Login = () => {
         </div>
         <div className="row">
         <div className="col-md-12 justify-self-center">
-              <label className="form-label">LastName</label>:
+              <label className="form-label">Password</label>:
               <input   required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
         </div>
         <div className="row">

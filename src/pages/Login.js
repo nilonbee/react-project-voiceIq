@@ -48,7 +48,7 @@ const Login = () => {
            <form style={{paddingLeft:25,paddingRight:25,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >
-              <h4>sign-up-for-free</h>         </div>
+              <h4>sign-up-for-free</h4>         </div>
         </div>
             <div className="row">
         <div className="col-md-12 justify-self-center" >

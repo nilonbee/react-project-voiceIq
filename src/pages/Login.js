@@ -44,7 +44,7 @@ const Login = () => {
         <Title title="Register Free Today" />
         </div>
 
-          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#eee,#FFFFFF)",padding:25,borderRadius:14,textShadow:7}} >  
+          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#eee,#EBFEF0)",padding:25,borderRadius:14,textShadow:7}} >  
            <form style={{paddingLeft:25,paddingRight:25,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >

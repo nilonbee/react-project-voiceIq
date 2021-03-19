@@ -51,22 +51,22 @@ const Login = () => {
               <label className="form-label">FirstName</label>:
               <input  onChange={handleChange}    value={person.firstName} required  id="firstName" name="firstName" type="text" className="form-control" placeholder="type first name here"/>          </div>
         </div>
-        <div style={{marginTop:12}} className="row">
+        <div style={{marginTop:20}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">LastName</label>:
               <input   onChange={handleChange}  value={person.lastName} required id="lastName" name="lastName" type="text" className="form-control" placeholder="type last name here"/>          </div>
         </div>
-        <div style={{marginTop:12}} className="row">
+        <div style={{marginTop:20}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">Email</label>:
               <input   onChange={handleChange} value={person.email} required id="email"  name="email" type="Email" className="form-control" placeholder="type email here"/>          </div>
         </div>
-        <div style={{marginTop:12}} className="row">
+        <div style={{marginTop:20}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">Password</label>:
               <input   required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
         </div >
-        <div style={{marginLeft:28,marginTop:45}} className="row">
+        <div style={{marginLeft:30,marginTop:45}} className="row">
         <div className="col-md-12 justify-self-center">
         <button className="btn btn-primary btn-sm btn-rounded m-3 " type="submit"> Sign-Up</button>       </div>
         </div>

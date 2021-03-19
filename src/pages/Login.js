@@ -38,7 +38,7 @@ const Login = () => {
         
             <container clasName="container-fluid">
 <div className="row align-self-center">
-    <div className="col-lg-12 justify-self-center"  >
+    <div className="col-sm-11 justify-self-center"  >
          <br/>
         <div className="title">
         <Title title="Register Free Today" />

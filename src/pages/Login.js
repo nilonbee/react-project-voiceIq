@@ -44,27 +44,27 @@ const Login = () => {
         <Title title="SIGN-UP" />
         </div>
 
-          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#D4BBFE,#A3FEEF)",padding:25,borderRadius:28,textShadow:7}} >  
+          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#F7EFFE,#EFFEFC)",padding:25,borderRadius:28,textShadow:7}} >  
            <form style={{paddingLeft:45,paddingRight:45,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >
               <label className="form-label">FirstName</label>:
-              <input style={{backgroundColor:"#FFFFFF"}} onChange={handleChange}    value={person.firstName} required  id="firstName" name="firstName" type="text" className="form-control" placeholder="type first name here"/>          </div>
+              <input  onChange={handleChange}    value={person.firstName} required  id="firstName" name="firstName" type="text" className="form-control" placeholder="type first name here"/>          </div>
         </div>
         <div style={{marginTop:12}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">LastName</label>:
-              <input style={{backgroundColor:"#FFFFFF"}}  onChange={handleChange}  value={person.lastName} required id="lastName" name="lastName" type="text" className="form-control" placeholder="type last name here"/>          </div>
+              <input   onChange={handleChange}  value={person.lastName} required id="lastName" name="lastName" type="text" className="form-control" placeholder="type last name here"/>          </div>
         </div>
         <div style={{marginTop:12}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">Email</label>:
-              <input style={{backgroundColor:"#FFFFFF"}}  onChange={handleChange} value={person.email} required id="email"  name="email" type="Email" className="form-control" placeholder="type email here"/>          </div>
+              <input   onChange={handleChange} value={person.email} required id="email"  name="email" type="Email" className="form-control" placeholder="type email here"/>          </div>
         </div>
         <div style={{marginTop:12}} className="row">
         <div className="col-md-12 justify-self-center">
               <label className="form-label">LastName</label>:
-              <input  style={{backgroundColor:"#FFFFFF"}}  required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
+              <input   required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
         </div >
         <div style={{marginLeft:15,marginTop:35}} className="row">
         <div className="col-md-12 justify-self-center">

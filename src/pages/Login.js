@@ -41,7 +41,7 @@ const Login = () => {
     <div className="col-lg-12 justify-self-center"  >
 
         <div className="title">
-        <Title title="SIGN-UP" />
+        <Title title="Register Free" />
         </div>
 
           <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#D7B6FE,#BAFEFC)",padding:25,borderRadius:28,textShadow:7}} >  

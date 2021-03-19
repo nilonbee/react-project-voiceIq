@@ -48,6 +48,10 @@ const Login = () => {
            <form style={{paddingLeft:25,paddingRight:25,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >
+              <h6>sign-up</h6>         </div>
+        </div>
+            <div className="row">
+        <div className="col-md-12 justify-self-center" >
               <label className="form-label">FirstName</label>:
               <input  onChange={handleChange}    value={person.firstName} required  id="firstName" name="firstName" type="text" className="form-control" placeholder="type first name here"/>          </div>
         </div>

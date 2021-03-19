@@ -45,7 +45,7 @@ const Login = () => {
         </div>
 
           <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#eee,#FFFFFF)",padding:25,borderRadius:14,textShadow:7}} >  
-           <form style={{paddingLeft:45,paddingRight:45,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
+           <form style={{paddingLeft:25,paddingRight:25,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >
               <label className="form-label">FirstName</label>:

@@ -66,8 +66,8 @@ const Login = () => {
               <label className="form-label">Password</label>:
               <input   required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
         </div >
-        <div style={{marginLeft:60,marginTop:45}} className="row">
-        <div className="col-md-12 justify-self-center">
+        <div  className="row">
+        <div style={{marginLeft:60,marginTop:45}} className="col-md-12 justify-self-center">
         <button className="btn btn-primary btn-sm btn-rounded m-3 " type="submit"> Sign-Up</button>       </div>
         </div>
         

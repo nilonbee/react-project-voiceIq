@@ -41,7 +41,7 @@ const Login = () => {
     <div className="col-lg-12 justify-self-center"  >
 
         <div className="title">
-        <Title title="Register Free" />
+        <Title title="register today free" />
         </div>
 
           <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#D7B6FE,#BAFEFC)",padding:25,borderRadius:28,textShadow:7}} >  
@@ -63,7 +63,7 @@ const Login = () => {
         </div>
         <div style={{marginTop:12}} className="row">
         <div className="col-md-12 justify-self-center">
-              <label className="form-label">LastName</label>:
+              <label className="form-label">Password</label>:
               <input   required   name="password" type="password" id="password" className="form-control" placeholder="type password here"/>          </div>
         </div >
         <div style={{marginLeft:15,marginTop:35}} className="row">

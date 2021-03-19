@@ -223,6 +223,7 @@
       font-size: 4rem;
     }
   }
+  
   /* End of Banner */
   /* Title */
   .section-title {
@@ -242,12 +243,7 @@
     background: var(--primaryColor);
   }
   /* end of Title */
-  /* start of fieldset */
-@media screen and (min-width: 976px) {
-    .fieldset {
-      padding: 2rem 3rem;
-    }
-    /*end of fieldset /*
+  
   /* services */
   .services {
     padding: 5rem 0;
@@ -314,6 +310,15 @@
     .featured-rooms-center {
       width: 95vw;
       max-width: 1170px;
+    }
+  }
+  @media screen and (min-width: 360px) {
+    .fieldset {
+      width: 95vw;
+     max-width:390px;
+      
+      align-items: center;
+      justify-content: center;
     }
   }
   /* end pf featured rooms */

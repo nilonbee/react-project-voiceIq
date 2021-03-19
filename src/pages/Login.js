@@ -39,9 +39,9 @@ const Login = () => {
             <container clasName="container-fluid">
 <div className="row align-self-center">
     <div className="col-lg-12 justify-self-center"  >
-
+         <br/>
         <div className="title">
-        <Title title="register today free" />
+        <Title title="Register Free Today" />
         </div>
 
           <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#D7B6FE,#BAFEFC)",padding:25,borderRadius:28,textShadow:7}} >  

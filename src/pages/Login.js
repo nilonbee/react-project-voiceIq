@@ -44,7 +44,7 @@ const Login = () => {
         <Title title="SIGN-UP" />
         </div>
 
-          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundImage:"linear-gradient(to right,#D4BBFE,#A3FEEF)",padding:25,borderRadius:28,textShadow:7}} >  
+          <fieldset className="shadow-lg p-3 mb-5 bg-body rounded" style={{  backgroundColor:"linear-gradient(to right,#D4BBFE,#A3FEEF)",padding:25,borderRadius:28,textShadow:7}} >  
            <form style={{paddingLeft:45,paddingRight:45,paddingTop:45}}className='form'  onSubmit={handleSubmit}>
             <div className="row">
         <div className="col-md-12 justify-self-center" >
